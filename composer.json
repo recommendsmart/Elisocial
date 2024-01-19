@@ -23,7 +23,7 @@
     "extra": {
         "drupal-scaffold": {
             "locations": {
-                "web-root": "html/"
+                "web-root": "./"
             }
         },
         "installer-types": [
@@ -31,22 +31,22 @@
             "npm-asset"
         ],
         "installer-paths": {
-            "html/core": [
+            "core": [
                 "drupal/core"
             ],
-            "html/modules/contrib/{$name}": [
+            "modules/contrib/{$name}": [
                 "type:drupal-module"
             ],
-            "html/profiles/contrib/social": [
+            "profiles/contrib/social": [
                 "goalgorilla/open_social"
             ],
-            "html/profiles/contrib/{$name}": [
+            "profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
-            "html/themes/contrib/{$name}": [
+            "themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
-            "html/libraries/{$name}": [
+            "libraries/{$name}": [
                 "type:drupal-library",
                 "type:bower-asset",
                 "type:npm-asset"

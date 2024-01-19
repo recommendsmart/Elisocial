@@ -1,0 +1,66 @@
+.view-group-manage-members .right-auto h4 {
+  margin-top: 0;
+}
+
+.view-group-manage-members .filter-block {
+  margin-bottom: 8px;
+}
+
+.view-group-manage-members .infinity-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 12px;
+}
+
+.view-group-manage-members .infinity-filter .views-exposed-form .control-label {
+  display: none;
+}
+
+.view-group-manage-members .infinity-filter .views-exposed-form .form-item {
+  margin-bottom: 0;
+}
+
+.view-group-manage-members .infinity-filter .views-exposed-form .form-item.form-item-items-per-page {
+  padding: 0 12px;
+}
+
+.view-group-manage-members .infinity-filter .separate-text {
+  padding-right: 8px;
+}
+
+@media (min-width: 600px) {
+  .view-group-manage-members .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .view-group-manage-members .form-group-inline--right {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .view-group-manage-members .filter-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .view-group-manage-members .infinity-filter {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    margin: 0 24px;
+  }
+}

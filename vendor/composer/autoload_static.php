@@ -149,6 +149,7 @@ class ComposerStaticInit24b46cc50e75c9dfa4f90c901bbc4441
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
             'Composer\\CaBundle\\' => 18,
+            'CommerceGuys\\Intl\\' => 18,
             'CommerceGuys\\Addressing\\' => 24,
         ),
         'A' => 
@@ -480,6 +481,10 @@ class ComposerStaticInit24b46cc50e75c9dfa4f90c901bbc4441
         'Composer\\CaBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/ca-bundle/src',
+        ),
+        'CommerceGuys\\Intl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/commerceguys/intl/src',
         ),
         'CommerceGuys\\Addressing\\' => 
         array (

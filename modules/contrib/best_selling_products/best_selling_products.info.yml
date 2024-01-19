@@ -1,0 +1,14 @@
+name: 'Best selling products'
+type: module
+description: 'Block with best selling products'
+core_version_requirement: ^9.4 || ^10
+package: 'Custom'
+dependencies:
+  - commerce:commerce
+  - commerce:commerce_order
+  - commerce:commerce_product
+
+# Information added by Drupal.org packaging script on 2023-10-07
+version: '8.x-3.13'
+project: 'best_selling_products'
+datestamp: 1696689184

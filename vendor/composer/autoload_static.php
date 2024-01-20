@@ -132,6 +132,7 @@ class ComposerStaticInit24b46cc50e75c9dfa4f90c901bbc4441
         array (
             'Drupal\\social\\Behat\\' => 20,
             'Drupal\\social\\' => 14,
+            'Drupal\\facets_pretty_paths\\' => 27,
             'Drupal\\bootstrap\\' => 17,
             'Drupal\\Tests\\social\\PHPStan\\' => 28,
             'Drupal\\Core\\' => 12,
@@ -425,6 +426,10 @@ class ComposerStaticInit24b46cc50e75c9dfa4f90c901bbc4441
         'Drupal\\social\\' => 
         array (
             0 => __DIR__ . '/../..' . '/profiles/contrib/social/src',
+        ),
+        'Drupal\\facets_pretty_paths\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/modules/contrib/facets_pretty_paths/src',
         ),
         'Drupal\\bootstrap\\' => 
         array (

@@ -72,6 +72,7 @@ return array(
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/src'),
     'Drupal\\social\\Behat\\' => array($baseDir . '/profiles/contrib/social/tests/behat/features/bootstrap'),
     'Drupal\\social\\' => array($baseDir . '/profiles/contrib/social/src'),
+    'Drupal\\facets_pretty_paths\\' => array($baseDir . '/modules/contrib/facets_pretty_paths/src'),
     'Drupal\\bootstrap\\' => array($baseDir . '/themes/contrib/bootstrap/src'),
     'Drupal\\Tests\\social\\PHPStan\\' => array($baseDir . '/profiles/contrib/social/tests/phpstan/src'),
     'Drupal\\Core\\' => array($baseDir . '/core/lib/Drupal/Core'),

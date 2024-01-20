@@ -3,7 +3,7 @@
         'name' => 'goalgorilla/social_template',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '06971158b36b0477c32b95ccfbe1ecd06786f614',
+        'reference' => 'e8e61b4f850f8a993c2f26f593d934bd7ad836fd',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -856,6 +856,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/media_entity_slideshow' => array(
+            'pretty_version' => '2.5.0',
+            'version' => '2.5.0.0',
+            'reference' => '8.x-2.5',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/media_entity_slideshow',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/media_library_form_element' => array(
             'pretty_version' => '2.0.6',
             'version' => '2.0.6.0',
@@ -1225,7 +1234,7 @@
         'goalgorilla/social_template' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '06971158b36b0477c32b95ccfbe1ecd06786f614',
+            'reference' => 'e8e61b4f850f8a993c2f26f593d934bd7ad836fd',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

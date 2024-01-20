@@ -29,7 +29,8 @@
         "drupal/inline_block_title_automatic": "^1.1",
         "drupal/media_library_form_element": "^2.0",
         "drupal/core_views_facets": "^2.0",
-        "drupal/facets_pretty_paths": "^2.0"
+        "drupal/facets_pretty_paths": "^2.0",
+        "drupal/media_entity_slideshow": "^2.5"
     },
     "repositories": [
         {

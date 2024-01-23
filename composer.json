@@ -31,7 +31,8 @@
         "drupal/core_views_facets": "^2.0",
         "drupal/facets_pretty_paths": "^2.0",
         "drupal/media_entity_slideshow": "^2.5",
-        "drupal/button_link": "^2.0"
+        "drupal/button_link": "^2.0",
+        "drupal/commerce_product_tax": "^1.0"
     },
     "repositories": [
         {

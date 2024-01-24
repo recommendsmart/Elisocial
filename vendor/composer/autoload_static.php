@@ -147,6 +147,7 @@ class ComposerStaticInit24b46cc50e75c9dfa4f90c901bbc4441
         ),
         'C' => 
         array (
+            'CssLint\\' => 8,
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
             'Composer\\CaBundle\\' => 18,
@@ -474,6 +475,10 @@ class ComposerStaticInit24b46cc50e75c9dfa4f90c901bbc4441
         'Defuse\\Crypto\\' => 
         array (
             0 => __DIR__ . '/..' . '/defuse/php-encryption/src',
+        ),
+        'CssLint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/neilime/php-css-lint/src/CssLint',
         ),
         'Composer\\Semver\\' => 
         array (

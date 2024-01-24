@@ -1,0 +1,29 @@
+{
+  "name": "drupal/dynamic_layouts",
+  "description": "Create and manage multiple reusable layouts in a user friendly interface",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "homepage": "https://www.drupal.org/project/dynamic_layouts",
+  "authors": [
+    {
+      "name": "Rajeshreeputra Pravin Dhondiba Gaikwad",
+      "homepage": "https://www.drupal.org/u/Rajeshreeputra",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Falco010",
+      "homepage": "hhttps://www.drupal.org/u/falco010",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Fabian de Rijk",
+      "homepage": "https://www.drupal.org/u/fabianderijk",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/dynamic_layouts",
+    "source": "https://git.drupalcode.org/project/dynamic_layouts"
+  }
+}

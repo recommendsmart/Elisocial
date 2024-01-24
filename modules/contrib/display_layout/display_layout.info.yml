@@ -1,0 +1,13 @@
+name: Display Layout
+type: module
+description: Allows custom layouts to be used when configuring view modes in Manage display.
+package: Display
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:layout_discovery
+  - drupal:field_ui
+
+# Information added by Drupal.org packaging script on 2024-01-01
+version: '1.0.1'
+project: 'display_layout'
+datestamp: 1704143766

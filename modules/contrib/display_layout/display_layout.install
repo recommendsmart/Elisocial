@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Installation functions for Display Layout module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function display_layout_install() {
+  // Assign a weight above 0 to ensure our implementation of
+  // hook_entity_type_alter() is run after Layout Builder.
+  module_set_weight('display_layout', 1);
+}

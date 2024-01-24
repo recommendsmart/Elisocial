@@ -32,7 +32,14 @@
         "drupal/facets_pretty_paths": "^2.0",
         "drupal/media_entity_slideshow": "^2.5",
         "drupal/button_link": "^2.0",
-        "drupal/commerce_product_tax": "^1.0"
+        "drupal/commerce_product_tax": "^1.0",
+        "drupal/layout_builder_component_attributes": "^2.1",
+        "drupal/layout_builder_styles": "^2.0",
+        "drupal/display_layout": "^1.0",
+        "drupal/dynamic_layouts": "^2.0",
+        "drupal/ds": "^3.18",
+        "drupal/switch_page_theme": "^4.0",
+        "drupal/dxpr_theme": "^5.2"
     },
     "repositories": [
         {

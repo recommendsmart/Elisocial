@@ -1,0 +1,20 @@
+dynamic_layout.dynamic_layout_list:
+  title: 'Dynamic Layouts'
+  route_name: dynamic_layout.dynamic_layout_list
+  description: 'Configure your dynamic layouts'
+  parent: system.admin_structure
+  weight: 100
+
+dynamic_layout.dynamic_layout_add:
+  title: 'Add new layout'
+  route_name: dynamic_layout.dynamic_layout_add
+  description: 'Add new layout'
+  parent: dynamic_layout.dynamic_layout_list
+  weight: 110
+
+dynamic_layout.dynamic_layout_settings:
+  title: 'Settings'
+  route_name: dynamic_layout.dynamic_layout_settings
+  description: 'Configure your dynamic layout generic settings'
+  parent: dynamic_layout.dynamic_layout_list
+  weight: 120

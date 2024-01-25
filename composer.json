@@ -39,7 +39,8 @@
         "drupal/dynamic_layouts": "^2.0",
         "drupal/ds": "^3.18",
         "drupal/switch_page_theme": "^4.0",
-        "drupal/dxpr_theme": "^5.2"
+        "drupal/dxpr_theme": "^5.2",
+        "drupal/entity_reference_views": "^1.1@beta"
     },
     "repositories": [
         {

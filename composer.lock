@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f06b52f431f0378bbfd948dc09ae1a3",
+    "content-hash": "9691a7b96a333eb4b8ae8d0784b7b0f8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3657,6 +3657,73 @@
             }
         },
         {
+            "name": "drupal/entity_browser_entity_form",
+            "version": "2.10.0",
+            "require": {
+                "drupal/core": "^9.5 || ^10",
+                "drupal/entity_browser": "*",
+                "drupal/inline_entity_form": "*"
+            },
+            "type": "metapackage",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.10",
+                    "datestamp": "1702325310",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "Devin Carlson",
+                    "homepage": "https://www.drupal.org/user/290182"
+                },
+                {
+                    "name": "Drupal Media Team",
+                    "homepage": "https://www.drupal.org/user/3260690"
+                },
+                {
+                    "name": "marcingy",
+                    "homepage": "https://www.drupal.org/user/77320"
+                },
+                {
+                    "name": "oknate",
+                    "homepage": "https://www.drupal.org/user/471638"
+                },
+                {
+                    "name": "Primsi",
+                    "homepage": "https://www.drupal.org/user/282629"
+                },
+                {
+                    "name": "samuel.mortenson",
+                    "homepage": "https://www.drupal.org/user/2582268"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                }
+            ],
+            "description": "Entity browser inline entity form integration.",
+            "homepage": "https://www.drupal.org/project/entity_browser",
+            "support": {
+                "source": "https://git.drupalcode.org/project/entity_browser"
+            }
+        },
+        {
             "name": "drupal/entity_reference_revisions",
             "version": "1.10.0",
             "source": {
@@ -6091,6 +6158,84 @@
             "homepage": "https://www.drupal.org/project/mailsystem",
             "support": {
                 "source": "https://git.drupalcode.org/project/mailsystem"
+            }
+        },
+        {
+            "name": "drupal/media_entity_browser",
+            "version": "2.0.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/media_entity_browser.git",
+                "reference": "8.x-2.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/media_entity_browser-8.x-2.0-alpha4.zip",
+                "reference": "8.x-2.0-alpha4",
+                "shasum": "76aaa75743ad02f0db817ed2b4b7f30e54a9e427"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10",
+                "drupal/entity_browser": "*",
+                "drupal/entity_browser_entity_form": "*",
+                "drupal/inline_entity_form": "*"
+            },
+            "require-dev": {
+                "drupal/ctools": "*",
+                "drupal/entity_browser": "^2",
+                "drupal/entity_browser_entity_form": "^2",
+                "drupal/inline_entity_form": "^1",
+                "drupal/video_embed_field": "^2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0-alpha4",
+                    "datestamp": "1675310826",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "acbramley",
+                    "homepage": "https://www.drupal.org/user/1036766"
+                },
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                },
+                {
+                    "name": "fenstrat",
+                    "homepage": "https://www.drupal.org/user/362649"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                },
+                {
+                    "name": "mstrelan",
+                    "homepage": "https://www.drupal.org/user/314289"
+                },
+                {
+                    "name": "rikki_iki",
+                    "homepage": "https://www.drupal.org/user/1068918"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                }
+            ],
+            "description": "This module provides an Entity Browser for Media.",
+            "homepage": "https://www.drupal.org/project/media_entity_browser",
+            "support": {
+                "source": "https://git.drupalcode.org/project/media_entity_browser"
             }
         },
         {
@@ -14636,7 +14781,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/entity_reference_views": 10
+        "drupal/entity_reference_views": 10,
+        "drupal/media_entity_browser": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,

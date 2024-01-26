@@ -40,7 +40,8 @@
         "drupal/ds": "^3.18",
         "drupal/switch_page_theme": "^4.0",
         "drupal/dxpr_theme": "^5.2",
-        "drupal/entity_reference_views": "^1.1@beta"
+        "drupal/entity_reference_views": "^1.1@beta",
+        "drupal/entity_browser": "^2.10"
     },
     "repositories": [
         {

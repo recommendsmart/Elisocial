@@ -3324,30 +3324,30 @@
         },
         {
             "name": "drupal/dxpr_theme",
-            "version": "5.2.0",
-            "version_normalized": "5.2.0.0",
+            "version": "5.2.1",
+            "version_normalized": "5.2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dxpr_theme.git",
-                "reference": "5.2.0"
+                "reference": "5.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/dxpr_theme-5.2.0.zip",
-                "reference": "5.2.0",
-                "shasum": "204d25a4acc8666b6e67a620e7aa92797da57960"
+                "url": "https://ftp.drupal.org/files/projects/dxpr_theme-5.2.1.zip",
+                "reference": "5.2.1",
+                "shasum": "3c6e563f52ee0fc09e6e3900756b974346c641c3"
             },
             "require": {
                 "drupal/bootstrap5": "^3",
-                "drupal/color": "*",
+                "drupal/color": "^1.0.3",
                 "drupal/core": ">=9.3",
                 "drupal/dxpr_theme_helper": "*"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "5.2.0",
-                    "datestamp": "1698845564",
+                    "version": "5.2.1",
+                    "datestamp": "1706167329",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3761,6 +3761,103 @@
                 "issues": "https://www.drupal.org/project/issues/entity"
             },
             "install-path": "../../modules/contrib/entity"
+        },
+        {
+            "name": "drupal/entity_browser",
+            "version": "2.10.0",
+            "version_normalized": "2.10.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/entity_browser.git",
+                "reference": "8.x-2.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entity_browser-8.x-2.10.zip",
+                "reference": "8.x-2.10",
+                "shasum": "d52548ea66dc56108c2e211aeaff6e1cc0522e85"
+            },
+            "require": {
+                "drupal/core": "^9.5 || ^10"
+            },
+            "conflict": {
+                "drupal/media_entity": "1.*"
+            },
+            "require-dev": {
+                "drupal/ckeditor": "^1.0",
+                "drupal/embed": "^1.0",
+                "drupal/entity_embed": "^1.0",
+                "drupal/entity_reference_revisions": "^1.0",
+                "drupal/entityqueue": "^1.0",
+                "drupal/inline_entity_form": "^1.0@rc",
+                "drupal/paragraphs": "^1.0",
+                "drupal/token": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.10",
+                    "datestamp": "1702325310",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Janez Urevc",
+                    "homepage": "https://github.com/slashrsm",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Primoz Hmeljak",
+                    "homepage": "https://github.com/primsi",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/1943336/committers",
+                    "role": "contributor"
+                },
+                {
+                    "name": "Drupal Media Team",
+                    "homepage": "https://www.drupal.org/user/3260690"
+                },
+                {
+                    "name": "marcingy",
+                    "homepage": "https://www.drupal.org/user/77320"
+                },
+                {
+                    "name": "oknate",
+                    "homepage": "https://www.drupal.org/user/471638"
+                },
+                {
+                    "name": "Primsi",
+                    "homepage": "https://www.drupal.org/user/282629"
+                },
+                {
+                    "name": "samuel.mortenson",
+                    "homepage": "https://www.drupal.org/user/2582268"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                }
+            ],
+            "description": "Entity browsing and selecting component.",
+            "homepage": "https://drupal.org/project/entity_browser",
+            "support": {
+                "source": "https://git.drupalcode.org/project/entity_browser",
+                "issues": "https://www.drupal.org/project/issues/entity_browser",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            },
+            "install-path": "../../modules/contrib/entity_browser"
         },
         {
             "name": "drupal/entity_reference_revisions",
@@ -9213,17 +9310,17 @@
         },
         {
             "name": "goalgorilla/open_social",
-            "version": "12.0.4",
-            "version_normalized": "12.0.4.0",
+            "version": "12.0.5",
+            "version_normalized": "12.0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "e151cb9a4b7f67fc5f7d81a370757356c266d094"
+                "reference": "5a75f6c062068c8b67d5a068cd64ca105f062ca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/e151cb9a4b7f67fc5f7d81a370757356c266d094",
-                "reference": "e151cb9a4b7f67fc5f7d81a370757356c266d094",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/5a75f6c062068c8b67d5a068cd64ca105f062ca0",
+                "reference": "5a75f6c062068c8b67d5a068cd64ca105f062ca0",
                 "shasum": ""
             },
             "require": {
@@ -9317,7 +9414,7 @@
             "replace": {
                 "drupal/social": "self.version"
             },
-            "time": "2024-01-18T09:23:05+00:00",
+            "time": "2024-01-24T09:01:17+00:00",
             "type": "drupal-profile",
             "extra": {
                 "enable-patching": true,
@@ -9428,7 +9525,7 @@
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
             "support": {
-                "source": "https://github.com/goalgorilla/open_social/tree/12.0.4"
+                "source": "https://github.com/goalgorilla/open_social/tree/12.0.5"
             },
             "install-path": "../../profiles/contrib/social"
         },
@@ -10835,11 +10932,11 @@
         },
         {
             "name": "npm-asset/emoji-picker-element",
-            "version": "1.16.0",
-            "version_normalized": "1.16.0.0",
+            "version": "1.21.0",
+            "version_normalized": "1.21.0.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/emoji-picker-element/-/emoji-picker-element-1.16.0.tgz"
+                "url": "https://registry.npmjs.org/emoji-picker-element/-/emoji-picker-element-1.21.0.tgz"
             },
             "type": "npm-asset",
             "installation-source": "dist",

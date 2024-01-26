@@ -11,7 +11,7 @@ A lightweight emoji picker, distributed as a web component.
 
 **Features:**
 
-- Supports [Emoji v14.0](https://emojipedia.org/emoji-14.0/) (depending on OS) and custom emoji
+- Supports [Emoji v15.1](https://emojipedia.org/emoji-15.1/) (depending on OS) and custom emoji
 - Uses IndexedDB, so it consumes [far less memory](https://nolanlawson.com/2020/06/28/introducing-emoji-picker-element-a-memory-efficient-emoji-picker-for-the-web/) than other emoji pickers
 - [Small bundle size](https://bundlephobia.com/result?p=emoji-picker-element) (<15kB min+gz)
 - Renders native emoji by default, with support for custom fonts
@@ -158,14 +158,14 @@ Then, specify the maximum emoji version supported by the font (see [Emojipedia](
 In HTML:
 
 ```html
-<emoji-picker emoji-version="14.0"></emoji-picker>
+<emoji-picker emoji-version="15.0"></emoji-picker>
 ```
 
 Or JavaScript:
 
 ```js
 const picker = new Picker({
-  emojiVersion: 14.0
+  emojiVersion: 15.0
 });
 ```
 
@@ -827,17 +827,22 @@ The reason for this is that `Picker` automatically registers itself as a custom 
 
 ### Within a Svelte project
 
-`emoji-picker-element` is explicitly designed as a custom element, and won't work
-as a direct Svelte component. However, if you're already using Svelte 3, then you
-can avoid importing Svelte twice by using:
+> [!WARNING]  
+> `emoji-picker-element` is no longer based on Svelte, so importing from `emoji-picker-element/svelte` is now deprecated.
+
+Previously, `emoji-picker-element` was based on Svelte v3/v4, and you could do:
 
 ```js
 import Picker from 'emoji-picker-element/svelte';
 ```
 
-`svelte.js` is the same as `picker.js`, except it `import`s Svelte rather than bundling it.
+The goal was to slightly reduce the bundle size by sharing common `svelte` imports.
 
-While this option can reduce your bundle size, note that it only works if your Svelte version is compatible with `emoji-picker-element`'s Svelte version (v3 currently).
+This is still supported for backwards compatibility, but it is deprecated and just re-exports the Picker. Instead, do:
+
+```js
+import Picker from 'emoji-picker-element/picker';
+```
 
 ## Data and offline
 

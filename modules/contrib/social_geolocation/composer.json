@@ -1,0 +1,26 @@
+{
+  "name": "drupal/social_geolocation",
+  "type": "drupal-module",
+  "description": "Provides geolocation functionality for groups, events and users in the Open Social distribution.",
+  "homepage": "http://drupal.org/project/social_geolocation",
+  "license": "GPL-2.0+",
+  "require": {
+    "commerceguys/addressing": "^1.0.7",
+    "drupal/address": "^1.0",
+    "drupal/geolocation": "^3.10",
+    "drupal/search_api_location": "^1.0",
+    "goalgorilla/open_social": "^11.10.2 || ^12"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "extra": {
+    "enable-patching": true,
+    "patches": {
+      "drupal/geolocation": {
+        "Issue #3378805 : Nominatim does not support the geocode request URL with trailing slash anymore": "https://www.drupal.org/files/issues/2023-08-04/geolocation-3378805-5_0.patch"
+      }
+    }
+  },
+  "minimum-stability": "dev"
+}

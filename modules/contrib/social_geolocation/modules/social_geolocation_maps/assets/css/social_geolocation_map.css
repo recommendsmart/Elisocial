@@ -1,0 +1,110 @@
+.marker-cluster,
+.marker-cluster--small {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+.marker-cluster:after,
+.marker-cluster--small:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  opacity: 0.6;
+  z-index: 1;
+}
+.marker-cluster div,
+.marker-cluster--small div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border-radius: 50%;
+  background: transparent;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.125rem;
+  z-index: 2;
+}
+.marker-cluster div span,
+.marker-cluster--small div span {
+  position: relative;
+  margin-top: -3px;
+  z-index: 3;
+}
+.marker-cluster div:after,
+.marker-cluster--small div:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.geolocation-map-container {
+  z-index: 5;
+}
+
+.leaflet-container .leaflet-popup {
+  font-family: "montserrat", sans-serif;
+}
+.leaflet-container .leaflet-popup * {
+  box-sizing: border-box;
+}
+.leaflet-container .leaflet-popup .leaflet-popup-content-wrapper {
+  padding-top: 12px;
+}
+.leaflet-container .leaflet-popup .leaflet-popup-close-button {
+  width: 16px;
+  height: 16px;
+  top: 13px;
+  right: 12px;
+  color: #343434;
+  margin-left: auto;
+  padding: 0;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #343434;
+}
+.leaflet-popup-content .teaser--small.teaser--small__location {
+  flex-direction: column;
+  padding-top: 0;
+}
+.leaflet-popup-content .teaser--small .teaser--content-wrapper {
+  display: flex;
+  padding: 4px;
+  border-radius: 8px;
+  background-color: #F3F3F3;
+}
+.leaflet-popup-content .teaser--small .teaser--small__details .teaser--small__title,
+.leaflet-popup-content .teaser--small .teaser--small__details .teaser--small__title a {
+  color: inherit;
+}
+.leaflet-popup-content .teaser--small .teaser--small__details .teaser--small__meta svg {
+  display: none;
+}
+.leaflet-popup-content .teaser--small .teaser--small__location {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-bottom: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+}
+
+/*# sourceMappingURL=social_geolocation_map.css.map */

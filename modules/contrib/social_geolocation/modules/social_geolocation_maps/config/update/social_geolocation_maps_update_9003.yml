@@ -1,0 +1,62 @@
+views.view.social_geolocation_leaflet_commonmap_with_marker_icons:
+  expected_config: {  }
+  update_actions:
+    delete:
+      display:
+        block_community_events_map:
+          display_options:
+            filters:
+              field_event_date_end_value:
+    add:
+      display:
+        block_community_events_map:
+          display_options:
+            filters:
+              event_date:
+                id: event_date
+                table: node__field_event_date
+                field: event_date
+                relationship: none
+                group_type: group
+                admin_label: ''
+                plugin_id: social_event_date_filter
+                operator: in
+                value: { }
+                group: 1
+                exposed: true
+                expose:
+                  operator_id: event_date_op
+                  label: 'Event date'
+                  description: null
+                  use_operator: false
+                  operator: event_date_op
+                  operator_limit_selection: false
+                  operator_list: { }
+                  identifier: event_date
+                  required: false
+                  remember: false
+                  multiple: false
+                  remember_roles:
+                    authenticated: authenticated
+                  reduce: false
+                is_grouped: true
+                group_info:
+                  label: 'Event date'
+                  description: ''
+                  identifier: event_date
+                  optional: true
+                  widget: select
+                  multiple: false
+                  remember: false
+                  default_group: '1'
+                  default_group_multiple: { }
+                  group_items:
+                    1:
+                      title: 'Ongoing and upcoming events'
+                      operator: in
+                      value: '1'
+                    2:
+                      title: 'Past events'
+                      operator: in
+                      value: '2'
+

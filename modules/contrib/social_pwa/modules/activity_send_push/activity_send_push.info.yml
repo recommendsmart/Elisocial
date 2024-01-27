@@ -1,0 +1,12 @@
+name: Activity Send Web Push
+type: module
+description: Used to send activity notifications by Web Push
+core_version_requirement: ^9 || ^10
+package: Social
+dependencies:
+  - activity_send
+
+# Information added by Drupal.org packaging script on 2023-11-24
+version: '2.1.0'
+project: 'social_pwa'
+datestamp: 1700841127

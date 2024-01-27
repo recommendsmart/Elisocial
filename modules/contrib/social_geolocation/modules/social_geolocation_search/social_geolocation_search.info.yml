@@ -1,0 +1,14 @@
+name: 'Social Geolocation Search'
+description: 'Provides search support for the Social Geolocation module'
+type: module
+core_version_requirement: ^9 || ^10
+dependencies:
+  - social:social_search
+  - social_geolocation:social_geolocation
+  - search_api_location:search_api_location
+package: Social
+
+# Information added by Drupal.org packaging script on 2024-01-25
+version: '2.4.3'
+project: 'social_geolocation'
+datestamp: 1706190611

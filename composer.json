@@ -50,7 +50,9 @@
         "drupal/config_delete": "^2.0",
         "drupal/social_pwa": "^2.1",
         "drupal/social_geolocation": "^2.4",
-        "drupal/social_course": "^5.1"
+        "drupal/social_course": "^5.1",
+        "drupal/social_media_links": "^2.9",
+        "drupal/social_contact_info": "^4.0"
     },
     "repositories": [
         {

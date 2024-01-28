@@ -1,0 +1,11 @@
+name: 'Social Contact Block'
+type: module
+description: 'Provides blocks to exhibit social and contact information.'
+package: Other
+# version: VERSION
+core_version_requirement: ^8 || ^9 || ^10
+
+# Information added by Drupal.org packaging script on 2023-07-31
+version: '4.0.2'
+project: 'social_contact_info'
+datestamp: 1690783790
